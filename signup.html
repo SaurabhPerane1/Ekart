@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup/E-Kart</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        .container{
+            background-color: #ffffff; 
+            padding: 20px; 
+            margin: 100px auto; 
+            max-width: 500px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 5px; 
+            text-align: center;
+        }
+        input[type="submit"]{
+            border-radius: 3mm;
+            padding: 3mm 20mm 3mm 20mm;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 4mm;
+            border: none;
+        }
+        input[type="submit"]:hover{
+            transition: 0.5s;
+            background-color: rgb(159, 85, 255);
+            box-shadow: 0px 1px 20px rgb(137, 0, 196);
+            color: black;
+        }
+        input[type="text"]{
+            padding: 3mm 2mm 3mm 2mm;
+            width: 300px;
+        }
+        input[type="email"]{
+            padding: 3mm 2mm 3mm 2mm;
+            width: 300px;
+        }
+        input[type="password"]{
+            padding: 3mm 2mm 3mm 2mm;
+            width: 300px;
+        }
+        input[type="phone"]{
+            padding: 3mm 2mm 3mm 2mm;
+            width: 300px;
+        }
+        h1{
+            font-size: 12mm;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="container">
+
+            <h1>Signup</h1>
+
+            <form method="post" action="index2.html"  style="display: flex; flex-direction: column; align-items: center;">
+                <div>
+                    <label>Enter your name</label>
+                    <input type="text" name="name" id="" placeholder="Enter your name" required>
+                </div>
+                <div style="margin-top: 20px;">
+                    <label>Enter your Email</label>
+                    <input type="email" name="email" id="" placeholder="Enter your Email" required>
+                </div>
+                <div style="margin-top: 20px;">
+                    <label>Enter your Phone No.</label>
+                    <input type="phone" name="phone" id="" placeholder="Enter your Phone no." required>
+                </div>
+                <div style="margin-top: 20px;">
+                    <label>Enter New Password</label>
+                    <input type="password" name="password" id="" placeholder="Enter your Password" required>
+                </div>
+                <input style="margin-top: 20px;" type="submit">
+            </form>
+            
+        </div>
+    
+    </div>
+        
+</body>
+</html>

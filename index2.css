@@ -1,0 +1,270 @@
+.body{
+    margin-top: 0mm;
+    margin-left: 0mm; 
+    margin-right: 0mm;
+    margin-bottom: 2cm;
+    background-color: rgba(128, 128, 128, 0.471);
+}
+.top-color{
+    background-color: rgb(159, 85, 255); 
+    width: 100%; 
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.top-color-content-div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo-div{
+    width:140px;
+    text-align: center;
+    padding: 0;
+    margin: 6.5mm 11mm 2mm 2mm;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 140px;
+}
+.Search-box{
+    background-color: rgb(200, 171, 237);
+    margin-top: 9mm;
+    padding-left: 5mm;
+    padding-right: 6mm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    width: 400px;
+    border: none;
+    border-radius: 10mm;
+    font-size: 4.5mm;
+    box-shadow: 0px 1px 10px rgb(251, 251, 251);
+}
+.search-button{
+    background-color: rgb(200, 171, 237);
+    margin-top: 9mm;
+    margin-left: 4mm; 
+    padding-left: 1mm;
+    padding-right: 1mm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    width: 90px;
+    border: none;
+    border-radius: 10mm;
+    font-size: 4.5mm;
+    box-shadow: 0px 1px 5px rgb(251, 251, 251);
+}
+.search-button:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 1px 10px rgb(251, 251, 251);
+    cursor: pointer;
+}
+.search-button:active{
+    opacity: 0.8;
+}
+.login-div{
+    margin-top: 9mm;
+    margin-left: 20mm;
+}
+.login-button{
+    background-color: rgb(200, 171, 237);
+    border-radius: 1cm;
+    border: none;
+    padding-left: 6mm;
+    padding-right: 6mm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    font-size: 4.5mm;
+    box-shadow: 0px 1px 5px rgb(251, 251, 251);
+}
+.login-button:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 1px 10px rgb(251, 251, 251);
+    cursor: pointer;
+}
+.banner-div{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.main-banner-div{
+    position: relative;
+    text-align: center;
+}
+.sub-banner-div{
+    text-align: center;
+}
+.sub-banner-image-div1{
+    position: relative;
+    text-align: center;
+}
+.sub-banner-image-div2{
+    position: relative;
+    text-align: center;
+}
+.sub-banner-image-div3{
+    position: relative;
+    text-align: center;
+}
+.sub-banner-image-div4{
+    position: relative;
+    text-align: center;
+}
+.main-banner-image{
+    width:700px ;
+    height:500px ;
+    object-fit: cover;
+    border: none;
+    border-radius: 2mm;
+    box-shadow: 0px 0px 10px;
+}
+.button-div{
+    position: absolute;
+    bottom:100px;
+    left: 70px;
+}
+.sub-banner-text-div1{
+    position: absolute;
+    bottom:50px;
+    left: 20px;
+}
+.sub-banner-text-div2{
+    position: absolute;
+    bottom:50px;
+    left: 20px;
+}
+.sub-banner-text-div3{
+    position: absolute;
+    bottom:50px;
+    left: 2px;
+}
+.sub-banner-text-div4{
+    position: absolute;
+    bottom:50px;
+    left: 20px;
+}
+.button-on-main-banner{
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    padding-left: 8mm;
+    padding-right: 8mm;
+    font-size: 6mm;
+    border-radius: 1cm;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.button-on-main-banner:hover{
+    transition-duration: 0.3s;
+    color: black;
+    background-color: rgb(159, 85, 255);
+    box-shadow: 0px 0px 10px rgb(137, 0, 196);
+    cursor: pointer;
+}
+.button-on-main-banner:active{
+    opacity: 0.8;
+}
+.sub-banner-div{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.sub-banner-image1{
+    width: 350px;
+    height: 237px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2mm;
+    box-shadow: 0px 0px 10px;
+}
+.sub-banner-image2{
+    width: 350px;
+    height: 237px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2mm;
+    box-shadow: 0px 0px 10px;
+}
+.sub-banner-image3{
+    width: 350px;
+    height: 237px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2mm;
+    box-shadow: 0px 0px 10px;
+}
+.sub-banner-image4{
+    width: 350px;
+    height: 237px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2mm;
+    box-shadow: 0px 0px 10px;
+}
+.sub-banner-1-button{
+    border-radius: 1cm;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 2mm 3mm 2mm 3mm;
+}
+.sub-banner-1-button:hover{
+    transition-duration: 0.3s;
+    color: black;
+    background-color: rgb(159, 85, 255);
+    box-shadow: 0px 0px 10px rgb(137, 0, 196);
+    cursor: pointer;
+}
+.sub-banner-1-button:active{
+    opacity: 0.8;
+}
+.div-service{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+p{
+    cursor: pointer;
+}
+h1{
+    cursor: pointer;
+}
+.service-img{
+    cursor: pointer;
+}
+.extra-div-text1{
+    position: relative;
+    bottom:240px;
+    right: 250px;
+}
+.extra-div-text2{
+    position: relative;
+    bottom:270px;
+    right: 250px;
+}
+.extra-div-text3{
+    position: relative;
+    bottom:135px;
+    right: 250px;
+}
+
+.contact{
+    display: block;
+    text-align: center;
+}
+
+@media (max-width:600px){
+    html{
+        width: 400vw;
+    }
+}

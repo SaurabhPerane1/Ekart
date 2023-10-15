@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/E-Kart</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="password"]{
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 0.1mm solid black;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .submit-button{
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .submit-button:hover{
+            transition-duration: 0.3s;
+            color: black;
+            background-color: rgb(159, 85, 255);
+            box-shadow: 0px 0px 20px rgb(137, 0, 196);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div style="text-align: center;">
+        <div class="container" style="background-color: #ffffff; padding: 20px; margin: 100px auto; max-width: 500px; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 5px; text-align: center;">
+
+            <h1>Login Page</h1>
+
+            <form method="post" action="index2.html" style="display: flex; flex-direction: column; align-items: center;">
+
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <button class="submit-button" type="submit">Submit</button>
+            
+                <a href="signup.html">Signup</a>
+
+            </form>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>

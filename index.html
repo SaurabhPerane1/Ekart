@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+        img{
+            width: 100%;
+            position: relative;
+        }
+        .welcome{
+            position: absolute;
+            top: 40%;
+            left: 25%;
+            margin: 0px 0px 0px 0px;
+            border-radius: 40px;
+        }
+        .explore{
+            position: absolute;
+            top: 60%;
+            left: 25%;
+            margin: 0px 0px 0px 0px;
+            border: 0.1mm solid rgb(0, 0, 0);
+            box-shadow: 0px 0px 10px rgb(0, 0, 0);
+            border-radius: 40px;
+            background-color: rgb(255, 145, 240);
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+        h2{
+            font-family: sans-serif;
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .explore:hover{
+            box-shadow: 0px 0px 40px rgb(162, 0, 255);
+        }
+        @media (max-width:600px){
+            html{
+                width: 400vw;
+            }
+            img{
+                width: 400vw;
+                height: 800vw;
+                object-fit: cover;
+            }
+            
+            .explore{
+                top: 1400px;
+            }
+            
+            h1{
+                font-size: 200px;
+            }
+
+            h2{
+                font-size: 90px;
+                width: 700px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img width="100%" src="image/index background image2.JPG" alt="">
+        <div class="welcome">
+            <h1>Welcome To Our Website</h1>
+        </div>
+        <div class="explore">
+            <a href="index1.html"><h2 style="color: rgb(0, 0, 0);">Explore Now -></h2></a>
+        </div>
+    </div>
+</body>
+</html>
